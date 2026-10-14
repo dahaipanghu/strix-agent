@@ -1,0 +1,10 @@
+{
+  "targets": ["https://lab.example.invalid"],
+  "allow_active": false,
+  "max_tasks": 4,
+  "max_parallel": 1,
+  "max_attempts": 2,
+  "max_role_calls": 12,
+  "phase_timeout_seconds": 120,
+  "total_timeout_seconds": 600
+}

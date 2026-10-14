@@ -1,0 +1,16 @@
+{
+  "protocol_version": "strix-pentestgpt/1",
+  "session_id": "offline-session",
+  "request_id": "offline-contract-check",
+  "goal": "Validate the collaboration contract without running a scan",
+  "plan": {
+    "tasks": [{
+      "id": "review-fixture",
+      "target": "https://lab.example.invalid",
+      "objective": "Review synthetic evidence only",
+      "acceptance_criteria": ["No live target traffic is generated"],
+      "depends_on": [],
+      "mode": "review"
+    }]
+  }
+}
